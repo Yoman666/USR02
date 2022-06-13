@@ -1,7 +1,11 @@
 .wrap{
     max-width: 1000px;
+    margin: 0 auto;
+    background-color: #000;
+    height: 100px;
 }
 .box{
-    width: 50%;
+    width: 40%;
     height: 20px;
+    background-color: #fff;
 }
