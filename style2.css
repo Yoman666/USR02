@@ -1,11 +1,122 @@
-.wrap{
-    max-width: 1000px;
-    margin: 0 auto;
-    background-color: #000;
-    height: 100px;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-.box{
-    width: 40%;
-    height: 20px;
-    background-color: #fff;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ---------------------------------- */
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    text-decoration: none;
+    /* outline: 1px solid black; */
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h2{
+    font-size: 300%;
+    font-weight: bold;
+    padding: 5%;
+    color: #f5e5c7;
+}
+p{
+    /* text-align: center; */
+    padding: 2%;
+    font-weight: bold;
+
+}
+
+
+body{
+    background-color: #e6dcc1;
+    font-family: 微軟正黑體;
+    color: #4c756f;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    font-size: 150%;
+}
+.wrap{
+    
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: #4c756f;
+    
+}
+.introduce{
+    background-color: aliceblue;
+    border-radius: 3%;
+    margin: 2%;
+}
+.godintrodisplay{
+    display: flex;
+
+}
+.godpic{
+    width: 50%;
+    margin: 2%;
+    /* padding: 2%; */
+    border-radius: 5%;
+}
+.game{
+    height: 300px;
+    background-color: aliceblue;
+    margin: 2%;
+    border-radius: 3%;
+}
+.circle{
+    display: flex;
+    justify-content: end;
+    margin: 3%;
+}
+.clue{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #e6dcc1;
+    text-align: center;
+    line-height: 90px;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 1px;
 }
