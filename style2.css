@@ -62,8 +62,8 @@ h2{
 }
 p{
     /* text-align: center; */
-    padding: 2%;
     font-weight: bold;
+    text-align: justify;
 
 }
 
@@ -75,12 +75,15 @@ body{
     line-height: 1.5;
     letter-spacing: 1.5px;
     font-size: 150%;
+    
+   
 }
 .wrap{
     
     margin: 0 auto;
     max-width: 1140px;
     background-color: #4c756f;
+    padding-bottom: 50px;
     
 }
 .introduce{
@@ -90,35 +93,40 @@ body{
 }
 .godintrodisplay{
     display: flex;
-
+    padding: 3%;
+    
 }
 .godpic{
     width: 40%;
-    margin: 2%;
-    /* padding: 2%; */
+    height: auto;
     border-radius: 10px;
 }
+.godintro1{
+    padding-left: 2%;
+}
+.godintro{
+    padding: 3%;
+}
 .game{
-    height: 300px;
+    /*改成auto*/
+    height: 500px; 
     background-color: aliceblue;
-    margin: 2%;
     border-radius: 10px;
+    margin:2%;
+   
+    
 }
 .circle{
     display: flex;
     justify-content: end;
     
 }
-.clue{
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    background-color: #e6dcc1;
-    text-align: center;
-    line-height: 90px;
-    font-weight: bold;
-    font-size: 40px;
-    padding: 1px;
-    margin: 3%;
-    
+
+@media(max-width:414px){
+    h2{
+        font-size: 150%;
+    }
+    p{
+        font-size: 50%;
+    }
 }
