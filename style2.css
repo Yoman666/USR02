@@ -108,7 +108,7 @@ body{
     padding: 3%;
 }
 .game{
-    /*改成auto*/
+    /*裡面放遊戲時把height改成auto*/
     height: 500px; 
     background-color: aliceblue;
     border-radius: 10px;
